@@ -63,5 +63,4 @@ int main() {
         }
     }
     printf("%I64d\n", ans);
-//   system("pause");
 }
