@@ -1,6 +1,3 @@
-#0123456789012345678
-# 如果加入中文如何？
-
 from sys import stdin, stdout
 
 n = int(stdin.readline().strip())
