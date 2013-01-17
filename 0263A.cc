@@ -3,5 +3,4 @@ int main() {
     int i = 0, c;
     while(scanf("%d", &c) && !c) ++i;
     printf("%d\n", ((i%5)>2?(i%5)-2:2-(i%5))+((i/5)>2?(i/5)-2:2-(i/5)));
-    while(1);
 }
