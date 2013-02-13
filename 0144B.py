@@ -1,3 +1,5 @@
+# python code seems not effecient enough to get pass... try the c++ edition.
+
 from sys import stdin
 
 (xa, ya, xb, yb) = [int(buf) for buf in stdin.readline().strip().split()]
