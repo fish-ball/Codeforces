@@ -1,7 +1,7 @@
 import sys
 
-(n, k) = [int(x) for x in sys.stdin.readline().strip().split()]
+(n, k) = map(int, input().split())
 
-a = list(range(k+1))[::-1] + list(range(k+1, n))
+a = list(range(1, k+2))[::-1] + list(range(k+2, n+1))
 
-print(' '.join([str(x+1) for x in a]))
+print(*a)
